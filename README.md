@@ -32,7 +32,7 @@ The SVD modes are given by:
 The numpy package is used to compute both the eigenvector, eigenvalue pairs of a matrix and SVD using np.linalg.eigh and np.linalg.svd respectively.
 
 ## Results
-The 100x1000 correlation matrix computed using the first 100 images from the data set is shown in the figure below:
+From the 100x100 correlation matrix there are cluster blocks of highly correlated images, which probably are group of images of the same person but in varying lighting conditions. The 100x100 computed using the first 100 images from the data set is shown in the figure below:
 <p align="center">
   <img src="https://github.com/hhuynh000/EE399_HW2/blob/main/resources/corr100x100.png"/>
 </p>
@@ -56,7 +56,7 @@ From the correlation matrix the two most correlated image pair is shown in the f
   Figure 3. Most Correlated Images
 </p>
 
-For the images 1, 313, 512, 5, 2400, 113, 1024, 87, 314, and 2005, the 10x10 correlated matrix is shown in the figure below:
+For the images 1, 313, 512, 5, 2400, 113, 1024, 87, 314, and 2005, the 10x10 correlated matrix shows that the images 87 and 314 are the most highly correlated with one another. The 10x10 correlated matrix is shown in the figure below:
 <p align="center">
   <img src="https://github.com/hhuynh000/EE399_HW2/blob/main/resources/corr10x10.png"/>
 </p>
