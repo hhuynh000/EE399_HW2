@@ -32,10 +32,54 @@ The SVD modes are given by:
 The numpy package is used to compute both the eigenvector, eigenvalue pairs of a matrix and SVD using np.linalg.eigh and np.linalg.svd respectively.
 
 ## Results
-The 100x1000 correlation matrix computed using the first 100 images from the data set is shown in the figure below.
+The 100x1000 correlation matrix computed using the first 100 images from the data set is shown in the figure below:
 <p align="center">
-  <img src="https://github.com/hhuynh000/EE399_HW1/blob/main/resources/pcolor.png"/>
+  <img src="https://github.com/hhuynh000/EE399_HW2/blob/main/resources/corr100x100.png"/>
 </p>
 <p align="center">
-  Figure 3. Parameters Sweep Error Plot
+  Figure 1. 100x100 Correlation Matrix
 </p>
+
+From the correlation matrix the two least correlated image pair is shown in the figure below:
+<p align="center">
+  <img src="https://github.com/hhuynh000/EE399_HW2/blob/main/resources/least_corr.png"/>
+</p>
+<p align="center">
+  Figure 2. Least Correlated Images
+</p>
+
+From the correlation matrix the two most correlated image pair is shown in the figure below:
+<p align="center">
+  <img src="https://github.com/hhuynh000/EE399_HW2/blob/main/resources/most_corr.png"/>
+</p>
+<p align="center">
+  Figure 3. Most Correlated Images
+</p>
+
+For the images 1, 313, 512, 5, 2400, 113, 1024, 87, 314, and 2005, the 10x10 correlated matrix is shown in the figure below:
+<p align="center">
+  <img src="https://github.com/hhuynh000/EE399_HW2/blob/main/resources/corr10x10.png"/>
+</p>
+<p align="center">
+  Figure 4. 10x10 Correlation Matrix
+</p>
+
+Comparing the first eigenvector v1 with the first SVD mode u1, the norm of difference of their absolute values is 482.76. When reshaping the vectors into a 32x32 image, the two vectors is visually similar. The two images is shown in the figure below:
+<p align="center">
+  <img src="https://github.com/hhuynh000/EE399_HW2/blob/main/resources/svd_eigen.png"/>
+</p>
+<p align="center">
+  Figure 5. Eigenvector and SVD Mode Comparison
+</p>
+
+The percentage of variance captured by each of the first 6 SVD modes are 0.1661, 0.0761, 0.0312, 0.0267, 0.0156, 0.015 in order. The images of the first 6
+SVD modes are shown in the figure below:
+<p align="center">
+  <img src="https://github.com/hhuynh000/EE399_HW2/blob/main/resources/svd_modes.png"/>
+</p>
+<p align="center">
+  Figure 6. First 6 SVD Modes
+</p>
+
+## Conclusion
+There are different tools like PCA and correlation matrix to analyze data. PCA is especially useful in generating feature space for training machine learning model on since it extract the most important component and reducing the dimensionality.
