@@ -82,4 +82,4 @@ SVD modes are shown in the figure below:
 </p>
 
 ## Conclusion
-There are different tools like PCA and correlation matrix to analyze data. PCA is especially useful in generating feature space for training machine learning model on since it extract the most important component and reducing the dimensionality.
+There are different tools like PCA and correlation matrix to analyze data. Measuring correlation with dot product is an easy way to find how similar data is to one another. In addition, PCA is especially useful in generating feature space for training machine learning model on since it extract the most important component and reducing the dimensionality.
