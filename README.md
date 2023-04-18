@@ -64,7 +64,7 @@ For the images 1, 313, 512, 5, 2400, 113, 1024, 87, 314, and 2005, the 10x10 cor
   Figure 4. 10x10 Correlation Matrix
 </p>
 
-Comparing the first eigenvector v1 with the first SVD mode u1, the norm of difference of their absolute values is 482.76. When reshaping the vectors into a 32x32 image, the two vectors is visually similar. The two images is shown in the figure below:
+Comparing the first eigenvector v1 with the first SVD mode u1, the norm of difference of their absolute values is 482.76. When reshaping the vectors into a 32x32 image, the two vectors is visually similar. In this case with yalefaces data set, the resulting PCA are the same for both SVD and egienvectors approach. The two images is shown in the figure below:
 <p align="center">
   <img src="https://github.com/hhuynh000/EE399_HW2/blob/main/resources/svd_eigen.png"/>
 </p>
