@@ -72,8 +72,7 @@ Comparing the first eigenvector v1 with the first SVD mode u1, the norm of diffe
   Figure 5. Eigenvector and SVD Mode Comparison
 </p>
 
-The percentage of variance captured by each of the first 6 SVD modes are 0.1661, 0.0761, 0.0312, 0.0267, 0.0156, 0.015 in order. The first 6 SVD modes captures a lot of the variance of the data set with a percentage of about $1/3$. The images of the first 6
-SVD modes are shown in the figure below:
+The percentage of variance captured by each of the first 6 SVD modes are 0.1661, 0.0761, 0.0312, 0.0267, 0.0156, 0.015 in order. SVD captures the important facial features like eyes and nose as seen in mode 1. Also, SVD captures lighting condition like being half lit as seen in mode 2. The first 6 SVD modes captures a lot of the variance of the data set with a percentage of about $1/3$. The images of the first 6 SVD modes are shown in the figure below:
 <p align="center">
   <img src="https://github.com/hhuynh000/EE399_HW2/blob/main/resources/svd_modes.png"/>
 </p>
